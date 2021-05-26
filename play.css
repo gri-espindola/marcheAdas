@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/500/425/non_2x/empty-background-nature-farm-scenery-free-vector.jpg);
+    display: flex;
+    justify-content: center;
+}
+
+.div-container{
+    height: fit-content;
+    flex-direction: column;
+
+}
+
+.header-container{
+    display: flex;
+    align-items: flex-start;
+    background-color: #c2185b;
+    width: 498px;
+    height: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+    border: solid white 3px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 4px #00000021 inset;
+}
+
+.div-contenido{
+    padding: 15px;
+}
+
+.nav-contenido{
+    display: flex;
+    margin-left: auto;
+    padding: 15px;
+}
+
+.span-point{
+    margin-left: 20px;
+}
+
+.icon-info{
+    margin-right: 10px;
+}
+
+.span-combo , .span-point , .icon-info, .icon-undo {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 2px 2px #424242, 2px -2px #424242, -2px -2px #424242, -2px 2px #424242;
+}
+
+.box-play{
+    width: 499px;
+    height: 502px;
+    background: rgb(0 0 0 / 73%);
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: white 3px solid;
+    border-radius: 8px;
+}
+
+#grilla{
+    position: relative;
+    width: 100%;
+}
+
+.cuadrado{
+    display: flex;
+    flex-direction: column;
+}
